@@ -48,11 +48,6 @@ public class timeline {
 		return result;
 	}
 	
-	/*
-	 * this is the thing that has the +1 bug
-	 * 
-	 * plus an array out of bounds error depending on the things
-	 */
 	public static boolean add(String name, String day, int duration) {
 		boolean result = false;
 		
